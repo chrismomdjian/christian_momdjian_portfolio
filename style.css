@@ -36,7 +36,7 @@ body {
 }
 
 .footer {
-	background-color: #000000; 
+	background-color: #000000;
 	color: #34495e; /* dark grey */
 }
 
@@ -68,6 +68,14 @@ body {
 	border-radius: 5px;
 }
 
+a {
+	color: #95a5a6;
+}
+
+a:hover, a:visited {
+	color: #c0392b;
+}
+
 #call_to_action {
 	width: 200px;
 	height: 100px;
@@ -83,5 +91,3 @@ body {
 	border: solid #ffffff 1px;
 	border-radius: 5px;
 }
-
-
