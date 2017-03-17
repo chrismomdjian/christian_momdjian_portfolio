@@ -29,10 +29,10 @@
 </nav>
 
 <div class="container-fluid row-4 text-center" style="padding: 10%;">
-	<h1 id="titleFade1" style="font-size: 4em;">Christian Momdjian</h1>
-	<h2 id="titleFade2">Web Developer</h2>
+	<h1 class="titleFade" style="font-size: 4em;">Christian Momdjian</h1>
+	<h2 class="titleFade">Web Developer</h2>
 	<br>
-	<img src="chris.jpg" id="imgFade" width="200" height="300" class="img-responsive center-block img-circle" alt="Christian Momdjian" title="Christian Momdjian">
+	<img src="chris.jpg" width="200" height="300" class="img-responsive center-block img-circle titleFade" alt="Christian Momdjian" title="Christian Momdjian">
 </div>
 
 <div class="container-fluid row-3 text-center">
@@ -89,7 +89,7 @@
 		</div>
 		<div class="col-xs-12 col-md-6">
 			<h1>Mobile Responsive</h1>
-			<h3>Sites that can be made to look great on a Desktop, laptop, as well as Mobile Phones</h3>
+			<h3 class="enlargeText">Sites that can be made to look great on a Desktop, laptop, as well as Mobile Phones</h3>
 		</div>
 	</div>
 </div>
@@ -139,5 +139,10 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $(".titleFade").hide().fadeIn(2000);
+  });
+</script>
 </body>
 </html>
