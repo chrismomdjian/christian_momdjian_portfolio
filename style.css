@@ -35,16 +35,19 @@ body {
 	background-color: lightgrey;
 	color: #000;
 	border-radius: 5px;
-	padding: 5%;
+	padding: 9%;
 	text-align: justify;
-	margin: 2%;
+	margin: 3%;
+	box-shadow: 5px 5px 3px black;
+	transition-duration: 0.8s;
 }
 
 .content-box:hover {
-	background-color: salmon;
+	background-color: #2c3e50;
 	color: #fff;
-	transition-duration: 0.5s;
+	transition-duration: 0.8s;
 	cursor: pointer;
+	box-shadow: 8px 8px 3px black;
 }
 
 .row-4 {
@@ -71,18 +74,22 @@ body {
 	color: #000000;
 	border: none;
 	border-radius: 5px;
+	transition-duration: 0.7s;
 }
 
 a {
 	color: #95a5a6;
 }
 
-a:hover, a:visited {
+a:hover {
 	color: #c0392b;
+	text-decoration: none;
 }
 
 code {
-	font-size: 15px;
+	background-color: #2c3e50;
+	color: #fff;
+	padding: 5px;
 }
 
 #call_to_action {
@@ -102,7 +109,7 @@ code {
 }
 
 #call_to_action:hover {
-	background-color: #34495e;
+	background-color: #c0392b;
 	color: #fff;
 	border: solid #000 1px;
 }

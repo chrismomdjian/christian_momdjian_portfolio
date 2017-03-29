@@ -174,14 +174,20 @@
 	</div>
 	<br>
 	<br>
-	<p>Christian Momdjian | Web Developer &copy;2017</p>
+	<p><span id="currentDate"></span> <a href="index.html">chrismomdjian.com </a></p>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
   $(document).ready(function(){
-    $("#titleFade").hide().show();
+    $("#titleFade").hide().show(2000);
   });
+
+  //Copyright year for footer
+  var dateCopyright = document.getElementById("currentDate");
+  var date = new Date();
+  dateCopyright.innerHTML = "&copy;" + date.getFullYear();
+  
 </script>
 </body>
 </html>
