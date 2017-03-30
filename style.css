@@ -17,7 +17,7 @@ body {
 
 /* image of me */
 #me {
-	border: solid #333 3px;
+	border: solid #333 2px;
 }
 
 #me:hover {
@@ -26,33 +26,34 @@ body {
 }
 
 .row-1 {
-	background-color: #6C7A89; /
+	background-color: #87D37C;
 	color: #ffffff;
 	padding: 10%;
 }
 
 .row-3 {
-	background-color: #2c3e50;
+	background-color: #6B9362;
 	color: #ffffff;
 }
 
 .content-box {
-	background-color: #fff;
-	color: #000;
+	background-color: #6B9362;
+	color: #fff;
 	border-radius: 5px;
 	padding: 5%;
 	text-align: justify;
 	margin: 3%;
-	box-shadow: 5px 5px 3px black;
+	box-shadow: 0px 5px 3px black;
 	transition-duration: 0.8s;
 }
 
-.content-box h2 {
+.headingTitle {
 	text-align: center;
+	font-weight: bold;
 }
 
 .content-box:hover {
-	background-color: #2c3e50;
+	background-color: #264348;
 	color: #fff;
 	transition-duration: 0.8s;
 	cursor: pointer;
@@ -60,22 +61,23 @@ body {
 }
 
 .row-4 {
-	background-color: #6ab47b;
+	background-color: #407A52;
 	color: #ffffff;
 }
 
 #skills {
-	color: #2980b9;
+	color: #fff;
 	font-weight: bold;
 }
 
 .styled_button {
 	width: 200px;
 	height: 50px;
-	background-color: #2c3e50;
+	background-color: #6B9362;
 	border: solid #ffffff 1px;
 	border-radius: 5px;
 	color: #ffffff;
+	font-size: 18px;
 }
 
 .styled_button:hover {
