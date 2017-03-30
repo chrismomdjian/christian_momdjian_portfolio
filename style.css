@@ -15,10 +15,6 @@ body {
   padding-bottom: 15px;
 }
 
-.selected {
-	color: #000;
-}
-
 /* image of me */
 #me {
 	border: solid #333 3px;
@@ -41,14 +37,18 @@ body {
 }
 
 .content-box {
-	background-color: lightgrey;
+	background-color: #fff;
 	color: #000;
 	border-radius: 5px;
-	padding: 9%;
+	padding: 5%;
 	text-align: justify;
-	margin: 3%;
+	margin: 0;
 	box-shadow: 5px 5px 3px black;
 	transition-duration: 0.8s;
+}
+
+.content-box h2 {
+	text-align: center;
 }
 
 .content-box:hover {
@@ -66,12 +66,6 @@ body {
 
 #skills {
 	color: #2980b9;
-	font-weight: bold;
-	letter-spacing: 1px;
-}
-
-#skills:hover {
-	color: salmon;
 	font-weight: bold;
 }
 
@@ -101,6 +95,7 @@ a:hover {
 	text-decoration: none;
 }
 
+/*Phone number button on footer*/
 #call_to_action {
 	background-color: #000;
   border: solid #fff 1px;
