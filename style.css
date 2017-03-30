@@ -16,6 +16,10 @@ body {
 }
 
 /* image of me */
+#me {
+	border: solid #333 5px;
+}
+
 #me:hover {
 	opacity: 0.5;
 	transition-duration: 0.5s;
@@ -52,8 +56,18 @@ body {
 }
 
 .row-4 {
-	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");
+	background-color: #6ab47b;
 	color: #ffffff;
+}
+
+#skills {
+	color: #2980b9;
+	font-weight: bold;
+}
+
+#skills:hover {
+	color: salmon;
+	font-weight: bold;
 }
 
 .styled_button {
