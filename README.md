@@ -1,3 +1,3 @@
 # christian_momdjian_portfolio
-Link to live example below:
-https://christian-momdjian-portfolio.herokuapp.com/
+Link to live example:
+http://chrismomdjian.com
