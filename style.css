@@ -1,6 +1,19 @@
+/*/////////////////////////////////////////
+								GENERAL
+/////////////////////////////////////////*/
+
 body {
 	line-height: 1.8;
 	font-family: 'Libre Franklin', sans-serif;
+}
+
+a {
+	color: #95a5a6;
+}
+
+a:hover {
+	color: #c0392b;
+	text-decoration: none;
 }
 
 .container-fluid {
@@ -18,22 +31,34 @@ body {
 /* image of me */
 #me {
 	border: solid #333 2px;
+	transition-duration: 0.2s;
 }
 
 #me:hover {
-	opacity: 0.5;
-	transition-duration: 0.5s;
+	transition-duration: 0.2s;
+	border: solid #333 5px;
 }
 
+
+
+/*/////////////////////////////////////////
+						BACKGROUND COLORS
+/////////////////////////////////////////*/
+
 .row-1 {
-	background-color: #87D37C;
+	background-color: #407A52;
 	color: #ffffff;
-	padding: 10%;
+}
+
+.row-2 {
+	background-color: #6B9362;
+	color: #ffffff;
 }
 
 .row-3 {
-	background-color: #6B9362;
+	background-color: #87D37C;
 	color: #ffffff;
+	padding: 10%;
 }
 
 .content-box {
@@ -47,11 +72,6 @@ body {
 	transition-duration: 0.8s;
 }
 
-.headingTitle {
-	text-align: center;
-	font-weight: bold;
-}
-
 .content-box:hover {
 	background-color: #264348;
 	color: #fff;
@@ -60,9 +80,9 @@ body {
 	box-shadow: 8px 8px 3px black;
 }
 
-.row-4 {
-	background-color: #407A52;
-	color: #ffffff;
+.headingTitle {
+	text-align: center;
+	font-weight: bold;
 }
 
 #skills {
@@ -88,14 +108,11 @@ body {
 	transition-duration: 0.7s;
 }
 
-a {
-	color: #95a5a6;
-}
 
-a:hover {
-	color: #c0392b;
-	text-decoration: none;
-}
+
+/*/////////////////////////////////////////
+							FOOTER ITEMS
+/////////////////////////////////////////*/
 
 /*Phone number button on footer*/
 #call_to_action {

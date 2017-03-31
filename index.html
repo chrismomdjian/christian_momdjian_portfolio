@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
   <link rel="stylesheet" href="style.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -17,7 +18,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span>Menu</span>
       </button>
-      <a class="navbar-brand" href="index.html">Chris Momdjian</a>
+      <a class="navbar-brand" href="http://chrismomdjian.com">Chris Momdjian</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -29,8 +30,8 @@
   </div>
 </nav>
 
-<div class="container-fluid row-4 text-center" style="padding: 10%;">
-	<h1 class="headingTitle" style="font-size: 4em;">Christian Momdjian</h1>
+<div class="container-fluid row-1 text-center" style="padding: 10%;">
+	<h1 class="titleFade" style="font-size: 4em; font-weight: bold;">Christian Momdjian</h1>
 	<h2 class="titleFade">Web Developer</h2>
 	<br>
   <a href="index.html">
@@ -38,7 +39,7 @@
   </a>
 </div>
 
-<div class="container-fluid row-3 text-center">
+<div class="container-fluid row-2 text-center">
 	<h1 class="headingTitle">Recent work</h1>
   <div class="row"> <!-- beginning of first row -->
     <div class="col-xs-12 col-md-4">
@@ -121,30 +122,32 @@
 	</div> <!-- end of second row -->
 </div>
 
-<div class="container-fluid row-1 text-center">
+<div class="container-fluid row-3 text-center">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="content-box">
-        <h2 class="headingTitle">My Goal</h2>
-        <hr>
-        <p>I plan on creating quality work and becoming a great asset to my
-          future employer as a developer. I always try my best to be the person
-          that my higher-ups can trust with getting the job done!
-        </p>
-
-      </div>
+      <a href="contact.html">
+        <div class="content-box">
+          <h2 class="headingTitle">My Goal</h2>
+          <hr>
+          <p>I plan on creating quality work and becoming a great asset to my
+            future employer as a developer. I always try my best to be the person
+            that my higher-ups can trust with getting the job done!
+          </p>
+        </div>
+      </a>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="content-box">
-        <h2 class="headingTitle">My Skills</h2>
-        <hr>
-        <p>
-          My skills include: <br>
-          <span id="skills">HTML5, CSS3, JavaScript, jQuery, Bootstrap, JSON,
-          PHP & MySQL, AJAX, Git/GitHub, and much more!</span>
-        </p>
-
-      </div>
+      <a href="about.html">
+        <div class="content-box">
+          <h2 class="headingTitle">My Skills</h2>
+          <hr>
+          <p>
+            My skills include: <br>
+            <span id="skills">HTML5, CSS3, JavaScript, jQuery, Bootstrap, JSON,
+            PHP & MySQL, AJAX, Git/GitHub, and much more!</span>
+          </p>
+        </div>
+      </a>
     </div>
   </div>
 </div>
@@ -170,14 +173,11 @@
     <li><a href="contact.html">Contact</a></li>
   </ul>
 	<br>
-	<p><span id="currentDate"></span> <a href="index.html">chrismomdjian.com </a></p>
+	<p><a href="http://chrismomdjian.com"><span id="currentDate"></span> chrismomdjian.com </a></p>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
-  $(document).ready(function(){
-    $("#titleFade").hide().show(2000);
-  });
 
   //Copyright year for footer
   var dateCopyright = document.getElementById("currentDate");
