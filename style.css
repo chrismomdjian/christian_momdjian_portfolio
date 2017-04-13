@@ -65,6 +65,12 @@ a:hover {
 	padding: 10%;
 }
 
+.row-4 {
+	background-color: #407A52;
+	color: #ffffff;
+	padding: 5%;
+}
+
 .content-box {
 	background-color: #6B9362;
 	color: #fff;
@@ -132,6 +138,47 @@ a:hover {
 }
 
 
+/* CONTACT FORM STYLES */
+
+.cForm {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+}
+
+.cForm .form-control {
+	border: solid #2c3e50 2px;
+	background-color: #8bdd91;
+}
+
+.cForm label {
+	font-size: 1.3em;
+	letter-spacing: 3px;
+}
+
+.cForm textarea {
+	height: 150px;
+}
+
+.formButton {
+	width: 200px;
+	height: 50px;
+	color: #fff;
+	background-color: inherit;
+	border: solid #fff 2px;
+	border-radius: 5px;
+}
+
+.formButton:hover {
+	background-color: #fff;
+	border: solid #fff 2px;
+	color: #333;
+	transition-duration: 0.5s;
+}
+
+.general-contact-info {
+	letter-spacing: 3px;
+}
+
 
 /*/////////////////////////////////////////
 							FOOTER ITEMS
@@ -179,5 +226,10 @@ a:hover {
 @media only screen and (max-width: 480px){
 	.nameHeading {
 		font-weight: normal;
+	}
+
+	.formButton {
+		width: 100%;
+		margin-bottom: 10%;
 	}
 }
