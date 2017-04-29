@@ -195,9 +195,9 @@ img {
 }
 
 .formButton:hover {
-	background-color: #fff;
-	border: solid #fff 2px;
-	color: #333;
+	background-color: inherit;
+	border: solid #044F67 2px;
+	color: #044F67;
 	transition-duration: 0.5s;
 }
 
