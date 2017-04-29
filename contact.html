@@ -38,22 +38,23 @@
 	<br>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <form action="#" onsubmit="return checkFields();" method="POST" name="cForm" class="cForm">
+        <form action="example.php" method="POST" id="cForm" name="cForm" class="cForm">
           <div class="form-group">
             <label for="fullName">Full Name:</label>
             <input type="text" class="form-control input-lg" id="fullName" name="fullName">
+            <div id="name_error"></div>
           </div>
           <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" class="form-control input-lg" id="email" name="email">
+            <div id="email_error"></div>
           </div>
           <div class="textarea">
             <label for="comment">Comment:</label>
-              <textarea class="form-control input-lg" id="comment" name="comment">
-              </textarea>
+              <textarea class="form-control input-lg" id="comment" name="comment"></textarea>
+              <div id="comment_error"></div>
           </div><br>
-          <input type="submit" class="formButton" value="SUBMIT">
-          <div id="formError">Please fill in all fields.</div>
+          <input type="button" class="formButton" id="submitBtn" value="SUBMIT">
         </form>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 text-center general-contact-info">
@@ -64,21 +65,6 @@
         <h3><strong>Github Repositories</strong>: <br><a href="http://www.github.com/chrismomdjian">github.com/chrismomdjian</a></h3>
       </div>
     </div>
-  <!--
-    <div class="row contact">
-      <div class="col-xs-12 col-sm-12 col-md-12">
-    	<h3><strong>Phone</strong>: <br><a href="tel:(818)641-4054">(818)641-4054</a></h3>
-      </div>
-    	<br>
-      <div class="col-xs-12 col-sm-12 col-md-12">
-    	<h3><strong>Email</strong>: <br><a href="mailto:chrismomdjian@gmail.com">chrismomdjian@gmail.com</a></h3>
-      </div>
-    	<br>
-      <div class="col-xs-12 col-sm-12 col-md-12">
-    	<h3><strong>Github Repositories</strong>: <br><a href="http://www.github.com/chrismomdjian">github.com/chrismomdjian</a></h3>
-      </div>
-    </div>
-  -->
 </div>
 
 <footer class="container-fluid footer text-center">
@@ -116,22 +102,46 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
 
-  function checkFields(){
-    var formName = document.forms["cForm"]["fullName"].value;
-    var formEmail = document.forms["cForm"]["email"].value;
-    var formMessage = document.forms["cForm"]["message"].value;
+var $ = function(id) {
+return document.getElementById(id);
+}
 
-    if(formName == "" || formName == null || formEmail == "" || formEmail == null
-     || formMessage == "" || formMessage == null){
-      var formError = document.getElementById("formError");
-      formError.classList.add = "formErrorShow";
-      return false;
+
+/////////////////////////CONTACT FORM VALIDATION/////////////////////////
+
+var submitData = function() {
+
+    var emailField = $("email").value;
+    var nameField = $("fullName").value;
+    var commentField = $("comment").value;
+    var emailStatus = $("email_error");
+    var nameStatus = $("name_error");
+    var commentStatus = $("comment_error");
+    var isValid = true;
+
+    if(nameField == ""){
+      nameStatus.innerHTML = "Please fill in the name field.";
+      isValid = false;
+    } else if(emailField == "") {
+      emailStatus.innerHTML = "Please enter a valid email address.";
+      isValid = false;
+    } else if(commentField == "") {
+      commentStatus.innerHTML = "Please fill in the comment field.";
+      isValid = false;
     }
-  }
+
+    if(isValid) {
+      $("cForm").submit();
+    }
+
+}
 
 
-
-
+window.onload = function() {
+  var submitButton = $("submitBtn");
+  submitButton.addEventListener("click", submitData);
+  $("fullName").focus();
+}
 
 </script>
 </body>
