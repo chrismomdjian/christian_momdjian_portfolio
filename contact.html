@@ -3,7 +3,6 @@
 <head>
   <title>Chris Momdjian | Web Developer | Contact</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Los Angeles based web developer who is aiming to
   work as a junior full-time programmer. Skills include HTML, CSS, JavaScript,
   jQuery, PHP and MySQL, Bootstrap, Git/Github and much more!">
@@ -39,7 +38,7 @@
 	<br>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <form action="#" method="POST" class="cForm">
+        <form action="#" onsubmit="return checkFields();" method="POST" name="cForm" class="cForm">
           <div class="form-group">
             <label for="fullName">Full Name:</label>
             <input type="text" class="form-control input-lg" id="fullName" name="fullName">
@@ -49,11 +48,12 @@
             <input type="email" class="form-control input-lg" id="email" name="email">
           </div>
           <div class="textarea">
-            <label for="comment">Comment</label>
+            <label for="comment">Comment:</label>
               <textarea class="form-control input-lg" id="comment" name="comment">
               </textarea>
           </div><br>
           <input type="submit" class="formButton" value="SUBMIT">
+          <div id="formError">Please fill in all fields.</div>
         </form>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 text-center general-contact-info">
@@ -84,7 +84,7 @@
 <footer class="container-fluid footer text-center">
 	<div class="row">
 		<div class="col-xs-12 col-md-4">
-			<a href="tel:(818)641-4054"><button type="button" id="call_to_action"><h3>(818).641.4054</h3></button></a>
+			<a href="tel:(818)641-4054"><span class="btn btn-lg btn-success" id="call_to_action">(818).641.4054</span></a>
 		</div>
 		<div class="col-xs-12 col-md-4">
 			<h3><strong>Email: </strong><br><a href="mailto:chrismomdjian@gmail.com">chrismomdjian@gmail.com</a></h3>
@@ -109,8 +109,30 @@
   var dateCopyright = document.getElementById("currentDate");
   var date = new Date();
   dateCopyright.innerHTML = "&copy;" + date.getFullYear();
+
 </script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+
+  function checkFields(){
+    var formName = document.forms["cForm"]["fullName"].value;
+    var formEmail = document.forms["cForm"]["email"].value;
+    var formMessage = document.forms["cForm"]["message"].value;
+
+    if(formName == "" || formName == null || formEmail == "" || formEmail == null
+     || formMessage == "" || formMessage == null){
+      var formError = document.getElementById("formError");
+      formError.classList.add = "formErrorShow";
+      return false;
+    }
+  }
+
+
+
+
+
+</script>
 </body>
 </html>
