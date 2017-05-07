@@ -1,3 +1,7 @@
+<?php
+include("validateForm.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +42,7 @@
 	<br>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <form action="example.php" method="POST" id="cForm" name="cForm" class="cForm">
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" id="cForm" name="cForm" class="cForm">
           <div class="form-group">
             <label for="fullName">Full Name:</label>
             <input type="text" class="form-control input-lg" id="fullName" name="fullName">
@@ -54,7 +58,7 @@
               <textarea class="form-control input-lg" id="comment" name="comment"></textarea>
               <div id="comment_error"></div>
           </div><br>
-          <input type="button" class="formButton" id="submitBtn" value="SUBMIT">
+          <input type="button" class="formButton" id="submitBtn" name="submitMe" value="SUBMIT">
         </form>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 text-center general-contact-info">
