@@ -70,14 +70,14 @@ img {
 	padding: 10%;
 }
 
-.resume-block {
-	padding-top: 0;
-}
-
 .row-4 {
 	background-color: #407A52;
 	color: #ffffff;
 	padding: 5%;
+}
+
+.resume-block {
+	padding-top: 0;
 }
 
 figure {
@@ -86,7 +86,7 @@ figure {
 
 figcaption {
 	text-align: justify;
-	padding: 5px;
+	padding: 2%;
 	font-weight: bold;
 	position: absolute;
 	bottom: 0;
