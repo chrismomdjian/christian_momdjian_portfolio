@@ -121,7 +121,7 @@ figcaption {
 	font-weight: bold;
 }
 
-.hoverEffect {
+.preview_button {
 	display: block;
 	width: inherit;
 	overflow: hidden;
@@ -136,7 +136,7 @@ figcaption {
 	border: solid white 1px;
 }
 
-.hoverEffect:hover {
+.preview_button:hover {
 	color: #fff;
 	background-color: #18665c;
 	opacity: #fff;
@@ -278,6 +278,11 @@ figcaption {
 	float: left;
 	padding: 15px;
 }
+
+/*///////////////////////////////////////////
+							  MEDIA QUERIES
+///////////////////////////////////////////*/
+
 
 @media only screen and (max-width: 480px){
 	.nameHeading {
