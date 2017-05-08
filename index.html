@@ -28,7 +28,7 @@
       <ul class="nav navbar-nav navbar-right">
 		    <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
       </ul>
     </div>
   </div>
@@ -48,8 +48,14 @@
   <div class="row"> <!-- beginning of first row -->
     <div class="col-xs-12 col-md-4 linkbutton">
 			<h2>olmominisplits.com</h2>
-			<a href="http://www.olmominisplits.com" target="_blank">
-			<img src="images/olmosite.jpg" class="img-responsive" alt="olmo mini splits site">
+      <figure>
+  			<a href="http://www.olmominisplits.com" target="_blank">
+  			<img src="images/olmosite.jpg" class="img-responsive" alt="olmo mini splits site">
+        <figcaption>
+          <h3>Title</h3>
+          <p>Some text to explain the project.</p>
+        </figcaption>
+      </figure>
       <div class="hoverEffect">Click To Preview</div>
 			</a><br>
 			<button class="styled_button" data-toggle="collapse" data-target="#first">About this project</button>
@@ -66,8 +72,14 @@
 		</div>
 		<div class="col-xs-12 col-md-4 linkbutton">
 			<h2>Real Estate Wordpress Project</h2>
-			<a href="http://presnow.com" target="_blank">
-			<img src="images/bobcheryl.jpg" class="img-responsive" alt="Bob and Cheryl Real Estate site">
+      <figure>
+			  <a href="http://presnow.com" target="_blank">
+			  <img src="images/bobcheryl.jpg" class="img-responsive" alt="Bob and Cheryl Real Estate site">
+        <figcaption>
+          <h3>Title</h3>
+          <p>Some text to explain the project.</p>
+        </figcaption>
+      </figure>
       <div class="hoverEffect">Click To Preview</div>
 			</a><br>
 			<button class="styled_button" data-toggle="collapse" data-target="#second">About this project</button>
@@ -80,8 +92,14 @@
 		</div>
 		<div class="col-xs-12 col-md-4 linkbutton">
 			<h2>Mobischeduler App Project</h2>
-			<a href="http://higher.team/blog/2017/january/diving-into-real-life-project" target="_blank">
-			<img src="images/mobischeduler.jpg" class="img-responsive" alt="Higher.team mobischeduler blog post">
+      <figure>
+  			<a href="http://higher.team/blog/2017/january/diving-into-real-life-project" target="_blank">
+  			<img src="images/mobischeduler.jpg" class="img-responsive" alt="Higher.team mobischeduler blog post">
+        <figcaption>
+          <h3>Title</h3>
+          <p>Some text to explain the project.</p>
+        </figcaption>
+      </figure>
       <div class="hoverEffect">Click To View Article</div>
 			</a><br>
 			<button class="styled_button" data-toggle="collapse" data-target="#third">About this project</button>
@@ -99,8 +117,14 @@
   <div class="row"> <!-- beginning of second row -->
 		<div class="col-xs-12 col-md-6 linkbutton">
 			<h2>Holmberg and Wadeburn Dressage</h2>
-			<a href="https://github.com/chrismomdjian/HWDressage.com" target="_blank">
-			<img src="images/hwdressage.jpg" class="img-responsive" alt="hwdressage website image">
+      <figure>
+  			<a href="https://github.com/chrismomdjian/HWDressage.com" target="_blank">
+  			<img src="images/hwdressage.jpg" class="img-responsive" alt="hwdressage website image">
+        <figcaption>
+          <h3>Title</h3>
+          <p>Some text to explain the project.</p>
+        </figcaption>
+      </figure>
       <div class="hoverEffect">Click To Preview</div>
 			</a><br>
 			<button class="styled_button" data-toggle="collapse" data-target="#fourth">About this project</button>
@@ -115,8 +139,14 @@
 		</div>
 		<div class="col-xs-12 col-md-6 linkbutton">
 			<h2>Tax Rate Application</h2>
-			<a href="http://chrismomdjian.com/TaxRateApp/calculateTax.html" target="_blank">
-			<img src="images/TaxApp.jpg" class="img-responsive" alt="Tax rate application image">
+      <figure>
+  			<a href="http://chrismomdjian.com/TaxRateApp/calculateTax.html" target="_blank">
+  			<img src="images/TaxApp.jpg" class="img-responsive" alt="Tax rate application image">
+        <figcaption>
+          <h3>Title</h3>
+          <p>Some text to explain the project.</p>
+        </figcaption>
+      </figure>
       <div class="hoverEffect">Click To Preview</div>
 			</a><br>
 			<button class="styled_button" data-toggle="collapse" data-target="#fifth">About this project</button>
@@ -183,7 +213,7 @@
   <ul id="footerNav">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="contact.php">Contact</a></li>
   </ul>
 	<br>
 	<p><a href="http://chrismomdjian.com"><span id="currentDate"></span> chrismomdjian.com </a></p>
@@ -197,6 +227,18 @@
   var date = new Date();
   dateCopyright.innerHTML = "&copy;" + date.getFullYear();
 
+</script>
+
+<script>
+
+// Hover effect over project images
+$("figure").on("mouseenter", function(){
+  $(this).find("figcaption").slideDown();
+});
+
+$("figure").on("mouseleave", function(){
+  $(this).find("figcaption").fadeOut();
+});
 </script>
 </body>
 </html>

@@ -80,6 +80,23 @@ img {
 	padding: 5%;
 }
 
+figure {
+	position: relative;
+}
+
+figcaption {
+	text-align: justify;
+	padding: 5px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	background: rgba(19,43,102, .85);
+	display: none;
+}
+
 .content-box {
 	background-color: #6B9362;
 	color: #fff;
