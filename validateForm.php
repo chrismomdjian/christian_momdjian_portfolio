@@ -13,13 +13,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $user_name = test_input($_POST["fullName"]);
   $message_body = test_input($_POST["comment"]);
 
-  $to = "chrismomdjian@gmail.com";
-  $subject = "Contact Form Submission from " . $user_name;
+  require("inc/class.phpmailer.php");       // require the PHPMailer third-party library
+  require("inc/class.smtp.php");
 
-  if( mail($to, $subject, $message_body) ) {
-    echo $success_message;
+  $mail = new PHPmailer;
+
+  $mail->setFrom($email, $user_name);
+  $mail->addAddress('chrismomdjian@gmail.com', 'Christian Momdjian');
+
+  $mail->isHTML(false);
+
+  $mail->Subject = 'Contact Form Submission from ' . $user_name;
+  $mail->Body    = $message_body;
+
+  if(!$mail->send()) {
+      echo $fail_message;
+      echo 'Mailer Error: ' . $mail->ErrorInfo;
   } else {
-    echo $fail_message;
+      echo $success_message;
   }
 
 }
