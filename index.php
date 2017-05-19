@@ -1,38 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Chris Momdjian | Web Developer</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Los Angeles based web developer who is aiming to
-  work as a junior full-time programmer. Skills include HTML, CSS, JavaScript,
-  jQuery, PHP and MySQL, Bootstrap, Git/Github and much more!">
-  <meta name="keywords" content="web developer, junior web developer, javascript developer, front-end developer,
-  php developer, junior programmer, software developer, christian momdjian, chris momdjian, programmer, website developer">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
+<?php include("inc/header.php"); ?>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span>Menu</span>
-      </button>
-      <a class="navbar-brand" href="http://chrismomdjian.com">Chris Momdjian</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-		    <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contact.php">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php include("inc/navbar.php"); ?>
 
 <div class="container-fluid row-1 text-center" style="padding: 10%;">
 	<h1 class="titleFade nameHeading" style="font-size: 4em;">Christian Momdjian</h1>
@@ -200,29 +168,8 @@
   <a href="images/CHRISTIANMOMDJIAN_2017.pdf" target="_blank"><div class="btn btn-lg" id="resume">View My Resume</div></a>
 </div>
 
-<footer class="container-fluid footer text-center">
-	<div class="row">
-		<div class="col-xs-12 col-md-4">
-			<a href="tel:(818)641-4054"><span class="btn btn-lg" id="call_to_action">(818).641.4054</span></a>
-		</div>
-		<div class="col-xs-12 col-md-4">
-			<h3><strong>Email: </strong><br><a href="mailto:chrismomdjian@gmail.com">chrismomdjian@gmail.com</a></h3>
+<?php include("inc/footer.php"); ?>
 
-		</div>
-		<div class="col-xs-12 col-md-4">
-			<h3><strong>Github Repos: </strong>
-			<a href="https://www.github.com/chrismomdjian" target="_blank">github.com/chrismomdjian</a></h3>
-		</div>
-	</div>
-	<br>
-  <ul id="footerNav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.php">Contact</a></li>
-  </ul>
-	<br>
-	<p><a href="http://chrismomdjian.com"><span id="currentDate"></span> chrismomdjian.com </a></p>
-</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
