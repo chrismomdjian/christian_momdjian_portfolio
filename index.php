@@ -20,7 +20,7 @@
   			<a href="http://www.olmominisplits.com" target="_blank">
   			<img src="images/olmosite.jpg" class="img-responsive" alt="olmo mini splits site">
         <figcaption>
-          <h3>Olmo Mini Splits</h3>
+          <h4 class="slidebox-title">Olmo Mini Splits</h4>
           <p>Landing page created to showcase the Olmo Mini Split line of air conditioners.</p>
           <p>HTML5, CSS3, and Bootstrap 3.</p>
         </figcaption>
@@ -45,7 +45,7 @@
 			  <a href="http://presnow.com" target="_blank">
 			  <img src="images/bobcheryl.jpg" class="img-responsive" alt="Bob and Cheryl Real Estate site">
         <figcaption>
-          <h3>Bob &amp; Cheryl Real Estate</h3>
+          <h4 class="slidebox-title">Bob &amp; Cheryl Real Estate</h4>
           <p>Real Estate website created using the AgentPress Pro theme and real estate listing plugins.</p>
           <p>SEO was a large factor in building this site as well.</p>
         </figcaption>
@@ -66,7 +66,7 @@
   			<a href="http://higher.team/blog/2017/january/diving-into-real-life-project" target="_blank">
   			<img src="images/mobischeduler.jpg" class="img-responsive" alt="Higher.team mobischeduler blog post">
         <figcaption>
-          <h3>Higher.team Scheduler App</h3>
+          <h4 class="slidebox-title">Higher.team Scheduler App</h4>
           <p>Simple scheduler app created for the code school Higher.team.</p>
           <p>PHP5, MySQL and the HTML5 stack.</p>
         </figcaption>
@@ -92,7 +92,7 @@
   			<a href="#" target="_blank">
   			<img src="images/clothing-brand.png" class="img-responsive" alt="clothing brand web design">
         <figcaption>
-          <h3>Clothing Brand Landing Page Design</h3>
+          <h4 class="slidebox-title">Clothing Brand Landing Page Design</h4>
           <p>A landing page I designed to look sleek and simple.</p>
           <p>HTML5, CSS3, JavaScript, jQuery</p>
         </figcaption>
@@ -113,7 +113,7 @@
   			<a href="http://southeastjunkhauling.com" target="_blank">
   			<img src="images/south-east-junk-hauling.png" class="img-responsive" alt="south east junk hauling">
         <figcaption>
-          <h3>Junk Hauling Wordpress Site</h3>
+          <h4 class="slidebox-title">Junk Hauling Wordpress Site</h4>
           <p>A Wordpress Genesis Theme driven website created for a client running a junk-hauling business.</p>
           <p>Wordpress, HTML5, CSS3</p>
         </figcaption>
@@ -132,7 +132,7 @@
   			<a href="http://chrismomdjian.com/TaxRateApp/calculateTax.html" target="_blank">
   			<img src="images/TaxApp.jpg" class="img-responsive" alt="Tax rate application image">
         <figcaption>
-          <h3>JS Tax App</h3>
+          <h4 class="slidebox-title">JS Tax App</h4>
           <p>A small tax rate conversion application made using some basic JavaScript.</p>
           <p>HTML5, CSS3, JavaScript</p>
         </figcaption>
