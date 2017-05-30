@@ -28,7 +28,7 @@ img {
 
 .navbar {
 	margin-bottom: 0;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 	font-weight: bold;
 	padding-top: 15px;
   padding-bottom: 15px;
@@ -291,6 +291,10 @@ figcaption {
 
 
 @media only screen and (max-width: 480px){
+	.navbar-brand {
+		letter-spacing: 0;
+	}
+
 	.nameHeading {
 		font-weight: normal;
 	}

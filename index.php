@@ -86,14 +86,14 @@
   <br><br>
 
   <div class="row"> <!-- beginning of second row -->
-		<div class="col-xs-12 col-md-6 linkbutton">
-			<h2>Holmberg and Wadeburn Dressage</h2>
+		<div class="col-xs-12 col-md-4 linkbutton">
+			<h2>Clothing Brand Web Design</h2>
       <figure>
-  			<a href="https://github.com/chrismomdjian/HWDressage.com" target="_blank">
-  			<img src="images/hwdressage.jpg" class="img-responsive" alt="hwdressage website image">
+  			<a href="#" target="_blank">
+  			<img src="images/clothing-brand.png" class="img-responsive" alt="clothing brand web design">
         <figcaption>
-          <h3>Holmberg and Wadeburn Dressage</h3>
-          <p>Horse Training website created to market various specials and courses for their business.</p>
+          <h3>Clothing Brand Landing Page Design</h3>
+          <p>A landing page I designed to look sleek and simple.</p>
           <p>HTML5, CSS3, JavaScript, jQuery</p>
         </figcaption>
       </figure>
@@ -102,14 +102,31 @@
 			<button class="project_info" data-toggle="collapse" data-target="#fourth">About this project</button>
       <br><br>
 			<div class="collapse" id="fourth">
-				<p>A website project I am currently working on which is for a client who wanted to improve their website.
-        <br>
-				I started off using a bootstrap template and began working from there, using their own images
-        and content to make a the remake the entire website. I always update the github repository for this
-        as much as I can.
+				A landing page I designed to look sleek and simple. I used the Bootstrap framework to get off
+				to a quick start in terms of making the page responsive, and decided not to use Bootstraps
+				other features like the navbar in favor of making my own responsive navigation.
 			</div>
 		</div>
-		<div class="col-xs-12 col-md-6 linkbutton">
+		<div class="col-xs-12 col-md-4 linkbutton">
+			<h2>South East Junk Hauling</h2>
+      <figure>
+  			<a href="http://southeastjunkhauling.com" target="_blank">
+  			<img src="images/south-east-junk-hauling.png" class="img-responsive" alt="south east junk hauling">
+        <figcaption>
+          <h3>Junk Hauling Wordpress Site</h3>
+          <p>A Wordpress Genesis Theme driven website created for a client running a junk-hauling business.</p>
+          <p>Wordpress, HTML5, CSS3</p>
+        </figcaption>
+      </figure>
+      <div class="preview_button">Click To Preview</div>
+			</a><br>
+			<button class="project_info" data-toggle="collapse" data-target="#fifth">About this project</button>
+      <br><br>
+			<div class="collapse" id="fifth">
+				A Wordpress Genesis Theme driven website created for a client running a junk-hauling business.
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-4 linkbutton">
 			<h2>Tax Rate Application</h2>
       <figure>
   			<a href="http://chrismomdjian.com/TaxRateApp/calculateTax.html" target="_blank">
@@ -122,9 +139,9 @@
       </figure>
       <div class="preview_button">Click To Preview</div>
 			</a><br>
-			<button class="project_info" data-toggle="collapse" data-target="#fifth">About this project</button>
+			<button class="project_info" data-toggle="collapse" data-target="#sixth">About this project</button>
       <br><br>
-      <div class="collapse" id="fifth">
+      <div class="collapse" id="sixth">
 				<p>A simple sales-tax and total calculator written in JavaScript. I enjoy creating one-page
           apps and this was a good little project to practice my JS skills without using any jQuery.
         </p>
