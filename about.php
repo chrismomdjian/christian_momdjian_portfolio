@@ -28,8 +28,8 @@
   </p>
 	<br>
 	<p>
-  My skills include <strong>HTML5, CSS3, Javascript/jQuery, PHP &amp; SQL, Angular,
-  Wordpress, Bootstrap, Git/Github, Slack, Basic SEO best practices</strong>
+  My skills include <strong>HTML5, CSS3, Javascript/jQuery, PHP &amp; SQL, Python 3+,
+  Django, Wordpress, Bootstrap, Git/Github, Slack, Basic SEO best practices</strong>
   and much more!
   </p>
 	</div>

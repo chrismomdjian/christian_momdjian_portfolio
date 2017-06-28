@@ -172,7 +172,7 @@
           <p>
             My skills include: <br>
             <span id="skills">HTML5, CSS3, JavaScript, jQuery, Bootstrap, JSON,
-            PHP & MySQL, AJAX, Git/GitHub, and much more!</span>
+            PHP & MySQL, Python 3+, Django, Git/GitHub, and much more!</span>
           </p>
         </div>
       </a>
