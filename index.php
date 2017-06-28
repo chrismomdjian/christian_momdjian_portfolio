@@ -6,7 +6,7 @@
 	<h1 class="titleFade nameHeading" style="font-size: 4em;">Christian Momdjian</h1>
 	<h2 class="titleFade">Web Developer</h2>
 	<br>
-  <a href="index.html">
+  <a href="http://chrismomdjian.com">
 	<img src="images/chris.jpg" id="me" width="200" height="300" class="img-responsive center-block img-circle titleFade" alt="Christian Momdjian" title="Christian Momdjian">
   </a>
 </div>
@@ -153,7 +153,7 @@
 <div class="container-fluid row-3 text-center">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <a href="contact.html">
+      <a href="contact.php">
         <div class="content-box">
           <h2 class="headingTitle">My Goal</h2>
           <hr>
@@ -165,7 +165,7 @@
       </a>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <a href="about.html">
+      <a href="about.php">
         <div class="content-box">
           <h2 class="headingTitle">My Skills</h2>
           <hr>
