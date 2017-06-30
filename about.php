@@ -27,7 +27,7 @@
   	My ultimate goal however, is to become a <strong>great developer</strong> and to
   	help clients and businesses achieve their goals.
   </p>
-	<br>
+	<hr>
 	<p>
   My skills include <strong>HTML5, CSS3, Javascript/jQuery, PHP &amp; SQL, Python 3+,
   Flask, Wordpress, Bootstrap, Git/Github, Slack, Basic SEO best practices</strong>
