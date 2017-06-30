@@ -9,27 +9,28 @@
 	<div class="col-xs-12 col-md-3">
 	</div>
 	<div class="col-xs-12 col-md-6">
-	<p class="text-justify">I love to <strong>code</strong> . I am
-  very passionate about building websites and creating something that people can use.
-	Nothing feels better to me than learning by doing. Theres something about programming
-  and developing that makes me want to know more and more.
+	<p class="text-justify"><strong>I love programming</strong>. I started programming in 2016
+		when a friend of mine showed me an HTML book written by Jon Duckett. I immediately began
+		writing HTML code (along with some CSS) to create some basic websites. It didn't take long before I
+		knew that programming would be my newfound passion.
   <br><br>
-  <strong>I constantly learn.</strong> Right now I'm working on growing my skills in Javascript and front-end development in
-  general, however I also have a deep interest in programming with PHP and MySQL to
-  interact with databases. PHP is one of my favorite languages. I remember being
-  extremely excited when I learned how to make my first contact form with HTML
-  forms and PHP. Although I love working with technologies such as PHP and the
-  HTML5 stack, I am eager to learn about all things related to tech including
-  front-end development, back-end programming, iOS and Android development, as
-  well as database patterns and e-commerce.
+  <strong>I'm constantly learning.</strong> I'm always eager to learn new technologies and frameworks as I
+	progress in my programming career. My recent interests have been in developing for the web using Python 3
+	, Flask and SQL as well as Django. Retrieving, updating and formatting data to present to users in a sleek, and
+	simple interface is something I always work on improving when writing code.
+	<br><br>
+	 I enjoy blending both back-end and front-end code together to form clean and cohesive projects and apps.
+	 What inspires me to write better code is seeing the way programmers can mix back-end functionality
+	 with front-end frameworks like Bootstrap to build data-driven websites while keeping a good user experience
+	 (along with browser support and device-width) in mind.
   <br><br>
-  My ultimate goal however, is to become a <strong>great developer</strong> and to
-  help clients and businesses achieve their goals.
+  	My ultimate goal however, is to become a <strong>great developer</strong> and to
+  	help clients and businesses achieve their goals.
   </p>
 	<br>
 	<p>
   My skills include <strong>HTML5, CSS3, Javascript/jQuery, PHP &amp; SQL, Python 3+,
-  Django, Wordpress, Bootstrap, Git/Github, Slack, Basic SEO best practices</strong>
+  Flask, Wordpress, Bootstrap, Git/Github, Slack, Basic SEO best practices</strong>
   and much more!
   </p>
 	</div>
