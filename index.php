@@ -31,12 +31,7 @@
       <br><br>
 			<div class="collapse" id="first">
 				<p>This is a web page I created which is meant to advertise the Cooper & Hunter
-        Olmo line of Mini Split air conditioners.
-        <br>
-				I made the webpage for the company Genie Air Conditioning when they needed
-        a site to showcase the unit specifications
-        <br>
-				and prices.</p>
+        Olmo line of Mini Split air conditioners.</p>
 			</div>
 		</div>
 		<div class="col-xs-12 col-md-4 linkbutton">
@@ -127,14 +122,15 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-md-4 linkbutton">
-			<h2>Tax Rate Application</h2>
+			<h2>CourseLogger</h2>
       <figure>
-  			<a href="http://chrismomdjian.com/TaxRateApp/calculateTax.html" target="_blank">
-  			<img src="images/TaxApp.jpg" class="img-responsive" alt="Tax rate application image">
+  			<a href="http://chrismomdjian.com/PDO/index.php" target="_blank">
+  			<img src="images/course_logger.png" class="img-responsive" alt="Course Logger">
         <figcaption>
-          <h4 class="slidebox-title">JS Tax App</h4>
-          <p>A small tax rate conversion application made using some basic JavaScript.</p>
-          <p>HTML5, CSS3, JavaScript</p>
+          <h4 class="slidebox-title">CourseLogger</h4>
+          <p>A PHP-powered web application I created to keep track of the classes I have to take
+					to earn my Associates degree at Glendale Community College.</p>
+					<br>
         </figcaption>
       </figure>
       <div class="preview_button">Click To Preview</div>
