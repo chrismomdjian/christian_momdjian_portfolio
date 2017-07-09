@@ -146,6 +146,13 @@
 	</div> <!-- end of second row -->
 </div>
 
+<!-- Team Treehouse Statistics -->
+<div class="container-fluid row-1 text-center">
+	<h1 class="headingTitle">Treehouse Points</h1>
+	<h1 id="treehouse-points"></h1>
+</div>
+
+<!-- Goals and Skills section -->
 <div class="container-fluid row-3 text-center">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6">
@@ -185,6 +192,13 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+	$.getJSON("https://teamtreehouse.com/christianmomdjian.json", function(result){
+			$("#treehouse-points").text(result.points.total);
+	});
+});
+</script>
 <script>
 
   //Copyright year for footer
