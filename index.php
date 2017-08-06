@@ -144,6 +144,46 @@
 			</div>
 		</div>
 	</div> <!-- end of second row -->
+
+	<div class="row"> <!-- beginning of third row -->
+		<div class="col-xs-12 col-md-4 linkbutton">
+			<h2>Treehouse Profile Application</h2>
+      <figure>
+  			<a href="http://chrismomdjian.com/profile-search-application/home.php" target="_blank">
+  			<img src="images/profile-search-app.jpg" class="img-responsive" alt="Treehouse Search Application">
+        <figcaption>
+          <h4 class="slidebox-title">Profile Search App</h4>
+          <p>PHP application that retrieves JSON data from TeamTreehouse API with profile data.</p>
+        </figcaption>
+      </figure>
+      <div class="preview_button">Click To Preview</div>
+			</a><br>
+			<button class="project_info" data-toggle="collapse" data-target="#seventh">About this project</button>
+      <br><br>
+			<div class="collapse" id="seventh">
+				PHP application that retrieves JSON data from TeamTreehouse API with profile data.
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 linkbutton">
+			<h2>GCC Computer Club Website</h2>
+      <figure>
+  			<a href="http://gcc-coding-team.herokuapp.com/" target="_blank">
+  			<img src="images/computer-club.jpg" class="img-responsive" alt="GCC Computer Club">
+        <figcaption>
+          <h4 class="slidebox-title">Computer Club Website</h4>
+          <p>Website created for the Glendale Community College computer club.</p>
+        </figcaption>
+      </figure>
+      <div class="preview_button">Click To Preview</div>
+			</a><br>
+			<button class="project_info" data-toggle="collapse" data-target="#eighth">About this project</button>
+      <br><br>
+			<div class="collapse" id="eighth">
+				Website created for the Glendale Community College computer club.
+			</div>
+		</div>
+	</div> <!-- end of third row -->
 </div>
 
 <!-- Team Treehouse Statistics -->
