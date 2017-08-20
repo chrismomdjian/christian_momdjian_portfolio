@@ -28,13 +28,31 @@ img {
 
 .navbar {
 	margin-bottom: 0;
+	background-color: #4F7942;
 	letter-spacing: 3px;
 	font-weight: bold;
 	padding-top: 15px;
   padding-bottom: 15px;
 	width: 100%;
-	border: none;
+	border-bottom: solid #333 3px;
 	border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar>.container .navbar-brand {
+	color: #fff;
+}
+
+.navbar>.container .navbar-brand:hover {
+	color: #333;
+}
+
+.navbar-default .navbar-toggle {
+	color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+	opacity: .80;
 }
 
 .nameHeading {

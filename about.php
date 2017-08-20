@@ -2,7 +2,7 @@
 
 <?php include("inc/navbar.php"); ?>
 
-<div class="container-fluid row-2 text-center">
+<div class="container-fluid row-1 text-center">
 	<h1 style="font-size: 3em;" class="headingTitle">About me</h1>
 	<br>
 	<div class="row">
