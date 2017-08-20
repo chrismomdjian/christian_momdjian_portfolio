@@ -11,20 +11,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   $email = test_input($_POST["email"]);
   $user_name = test_input($_POST["fullName"]);
-  $message_body = test_input($_POST["comment"]);
+  $comment = test_input($_POST["comment"]);
 
-  require("inc/class.phpmailer.php");       // require the PHPMailer third-party library
-  require("inc/class.smtp.php");
+  // Subject line of email
+  $subject = "Contact Form Submission From " . $user_name;
 
-  $mail = new PHPmailer;
+  // Construct body of email
+  $message_body = "The following information was submitted via your website's contact form: \n";
+  $message_body .= "Sender Name: " . $user_name . "\n";
+  $message_body .= "Email Address: " . $email . "\n";
+  $message_body .= "--- Beginning of Message ---\n";
+  $message_body .= $comment . "\n";
+  $message_body .= "--- End of Message ---";
 
-  $mail->setFrom($email, $user_name);
-  $mail->addAddress('chrismomdjian@gmail.com', 'Christian Momdjian');
-
-  $mail->isHTML(false);
-
-  $mail->Subject = 'Contact Form Submission from ' . $user_name;
-  $mail->Body    = $message_body;
+  require "inc/mailer/PHPMailerAutoload.php";               // include the PHPMailer class
+  $mail = new PHPMailer();                              // create an instance of PHPMailer
+  $mail->Host = "smtp.gmail.com";                       // choose a host
+  $mail->SMTPAuth = true;                               // set authentication to true
+  $mail->Username = "chrismomdjian@gmail.com";          // set login details for gmail account (to SEND email)
+  include "inc/pass.php";
+  $mail->SMTPSecure = "ssl"; // or tls                  // set type of protection
+  $mail->Port = "465"; // 587 if tls                    // set a port
+  $mail->Subject = $subject;                            // set subject
+  $mail->Body = $message_body;                          // set body
+  $mail->setFrom("chrismomdjian@gmail.com");            // set who is sending the email
+  $mail->addAddress("chrismomdjian@gmail.com");         // set where we are sending the email to (recipients)
 
   if(!$mail->send()) {
       echo $fail_message;
