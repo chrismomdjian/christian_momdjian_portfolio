@@ -1,2 +1,0 @@
-<?php
-$mail->Password = "filmerhands";
