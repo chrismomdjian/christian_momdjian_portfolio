@@ -348,6 +348,10 @@ figcaption {
 		font-weight: normal;
 	}
 
+	.headingTitle {
+		margin: 10px;
+	}
+
 	.formButton {
 		margin-bottom: 10%;
 	}

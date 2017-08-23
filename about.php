@@ -45,7 +45,7 @@
 		<h1 style="font-size: 3em;" class="headingTitle">Hobbies</h1>
 		<div class="col-xs-12 col-md-4">
 			<a href="#">
-				<img src="images/gameboy.png" alt="Gameboy Flat UI Design" class="icons img-responsive center-block img-circle">
+				<img src="images/gameboy.png" alt="Flat UI Design Gameboy" class="icons img-responsive center-block img-circle">
 			</a>
 			<h2>Nintendo Nerd</h2>
 		</div>
@@ -57,7 +57,7 @@
 		</div>
 		<div class="col-xs-12 col-md-4">
 			<a href="#">
-				<div class="icons img-circle img-responsive center-block" style="background-color: #333;"></div>
+				<img src="images/camera.png" alt="Flat UI Design Camera" class="icons img-responsive center-block img-circle">
 			</a>
 			<h2>Photographer</h2>
 		</div>
