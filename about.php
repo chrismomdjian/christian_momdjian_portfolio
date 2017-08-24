@@ -50,13 +50,13 @@
 			<h2>Nintendo Nerd</h2>
 		</div>
 		<div class="col-xs-12 col-md-4">
-			<a href="#">
-				<div class="icons img-circle img-responsive center-block" style="background-color: #333;"></div>
+			<a href="#" data-toggle="modal" data-target="#modal-2">
+				<img src="images/skateboard.png" alt="Flat UI Design Skateboard" class="icons img-responsive center-block img-circle">
 			</a>
 			<h2>Skateboarder</h2>
 		</div>
 		<div class="col-xs-12 col-md-4">
-			<a href="#" data-toggle="modal" data-target="#modal-2">
+			<a href="#" data-toggle="modal" data-target="#modal-3">
 				<img src="images/camera.png" alt="Flat UI Design Camera" class="icons img-responsive center-block img-circle">
 			</a>
 			<h2>Photographer</h2>
@@ -64,6 +64,7 @@
 	</div>
 </div>
 
+<!-- Modal Popup Windows for Hobbies Section -->
 <?php include "inc/modals.php"; ?>
 
 <?php include("inc/footer.php"); ?>

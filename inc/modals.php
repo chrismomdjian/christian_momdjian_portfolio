@@ -27,8 +27,31 @@
   </div>
 </div>
 
-<!-- Photography Modal -->
+<!-- Skateboarding Modal -->
 <div id="modal-2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title text-center">Skateboarder</h2>
+      </div>
+      <div class="modal-body">
+        <p>Skateboarding has always been a fun activity for me. I love hanging out with my friends and skateboarding at some areas around Downtown LA.</p>
+
+				<p>I also enjoy skateboarding at local skate plazas in Los Angeles whenever I get some free time.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Photography Modal -->
+<div id="modal-3" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
