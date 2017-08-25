@@ -16,6 +16,10 @@ a:hover {
 	text-decoration: none;
 }
 
+a:focus {
+	outline: 0;
+}
+
 img {
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
@@ -337,7 +341,6 @@ figcaption {
 /*///////////////////////////////////////////
 							  MEDIA QUERIES
 ///////////////////////////////////////////*/
-
 
 @media only screen and (max-width: 480px){
 	.navbar-brand {
