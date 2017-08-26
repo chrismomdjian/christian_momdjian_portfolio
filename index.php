@@ -186,11 +186,33 @@
 	</div> <!-- end of third row -->
 </div>
 
-<!-- Team Treehouse Statistics -->
+<!-- Slider -->
 <div class="container-fluid row-1 text-center">
-	<h1 class="headingTitle">Treehouse Points</h1>
-	<h1 id="treehouse-points"></h1>
+	<div class="row text-center">
+		<h1 class="headingTitle">Interests</h1>
+		<div class="col-xs-12 col-md-4">
+			<a href="#" data-toggle="modal" data-target="#modal-1">
+				<img src="images/gameboy.png" alt="Flat UI Design Gameboy" class="icons img-responsive center-block img-circle">
+			</a>
+			<h2>Nintendo Nerd</h2>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<a href="#" data-toggle="modal" data-target="#modal-2">
+				<img src="images/skateboard.png" alt="Flat UI Design Skateboard" class="icons img-responsive center-block img-circle">
+			</a>
+			<h2>Skateboarder</h2>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<a href="#" data-toggle="modal" data-target="#modal-3">
+				<img src="images/camera.png" alt="Flat UI Design Camera" class="icons img-responsive center-block img-circle">
+			</a>
+			<h2>Photographer</h2>
+		</div>
+
+	</div>
 </div>
+
+<?php include "inc/modals.php"; ?>
 
 <!-- Goals and Skills section -->
 <div class="container-fluid row-3 text-center">
@@ -240,12 +262,10 @@ $(document).ready(function(){
 });
 </script>
 <script>
-
-  //Copyright year for footer
+  // Copyright year for footer
   var dateCopyright = document.getElementById("currentDate");
   var date = new Date();
   dateCopyright.innerHTML = "&copy;" + date.getFullYear();
-
 </script>
 
 <script>
