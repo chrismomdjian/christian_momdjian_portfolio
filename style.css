@@ -1,6 +1,6 @@
-/*/////////////////////////////////////////
-								GENERAL
-/////////////////////////////////////////*/
+/*
+GENERAL
+*/
 
 body {
 	line-height: 1.8;
@@ -106,7 +106,7 @@ img {
 
 .modal-dialog .modal-content .modal-body {
 	position: relative;
-	padding: 15px;
+	padding: 25px;
 	background-color: rgba(44, 45, 80, 0.15);
 	color: #333;
 	font-weight: bold;
@@ -139,9 +139,9 @@ img {
 
 
 
-/*/////////////////////////////////////////
-						BACKGROUND COLORS
-/////////////////////////////////////////*/
+/*
+BACKGROUND COLORS
+*/
 
 .row-1 {
 	background-color: #407A52;
@@ -342,9 +342,9 @@ figcaption {
 }
 
 
-/*/////////////////////////////////////////
-							FOOTER ITEMS
-/////////////////////////////////////////*/
+/*
+FOOTER ITEMS
+*/
 
 /*Phone number button on footer*/
 #call_to_action {
@@ -386,9 +386,9 @@ figcaption {
 	padding: 15px;
 }
 
-/*///////////////////////////////////////////
-							  MEDIA QUERIES
-///////////////////////////////////////////*/
+/*
+MEDIA QUERIES
+*/
 
 @media only screen and (max-width: 480px){
 
