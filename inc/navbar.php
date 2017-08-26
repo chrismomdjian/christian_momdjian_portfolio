@@ -8,9 +8,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-		    <li class="<?php if($_GET["title"] == "home"){ echo 'active';} ?>"><a href="index.php?title=home">HOME</a></li>
-        <li class="<?php if($_GET["title"] == "about"){ echo 'active';} ?>"><a href="about.php?title=about">ABOUT</a></li>
-        <li class="<?php if($_GET["title"] == "contact"){ echo 'active';} ?>"><a href="contact.php?title=contact">CONTACT</a></li>
+		    <li class="<?php if($_SERVER["PHP_SELF"] == "/index.php"){ echo 'active';} ?>"><a href="index.php?title=home">HOME</a></li>
+        <li class="<?php if($_SERVER["PHP_SELF"] == "/about.php"){ echo 'active';} ?>"><a href="about.php?title=about">ABOUT</a></li>
+        <li class="<?php if($_SERVER["PHP_SELF"] == "/contact.php"){ echo 'active';} ?>"><a href="contact.php?title=contact">CONTACT</a></li>
       </ul>
     </div>
   </div>
