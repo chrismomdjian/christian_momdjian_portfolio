@@ -88,34 +88,45 @@ img {
 	border: solid #333 5px;
 }
 
-/* Slider */
-.cycle-slideshow {
-	align: center;
+/* Modal */
+.modal-dialog .modal-content .modal-header {
+	padding: 15px;
+	background-color: #6B9362;
+	color: #fff;
 }
-/*#slider {
-	border-radius: 4px;
-	margin: 5px auto 0 auto;
-	overflow: hidden;
+
+.modal-dialog .modal-content .modal-body {
 	position: relative;
+	padding: 15px;
+	background-color: rgba(44, 45, 80, 0.15);
+	color: #333;
+	font-weight: bold;
 }
-#slider ul {
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
-	position: relative;
+
+.modal-dialog .modal-content .modal-footer {
+	padding: 15px;
+	text-align: right;
+	border-top: 2px solid lightgrey;
+	background-color: rgba(44, 45, 80, 0.15);
 }
-#slider ul li {
-	background-color: inherit;
-	display: block;
-	float: left;
-	height: 280px;
-	line-height: 300px;
-	margin: 0px;
-	padding: 0px;
-	position: relative;
-	width: 500px;
-	text-align: center;
-}*/
+
+/* x-button on modal */
+.modal-header .close {
+	margin-top: -2px;
+	color: #fff;
+}
+
+/* close modal button */
+.modal-dialog .modal-content .modal-btn {
+	background-color: #c0392b;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+}
+
+.modal-dialog .modal-content .modal-btn:hover {
+	opacity: .80;
+}
 
 
 
@@ -382,10 +393,6 @@ figcaption {
 
 	.headingTitle {
 		margin: 10px;
-	}
-
-	.cycle-slideshow {
-		margin-top: 10px;
 	}
 
 	.formButton {
