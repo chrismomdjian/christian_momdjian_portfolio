@@ -10,7 +10,7 @@ include("validateForm.php");
 	<h1 style="font-size: 3em;" class="headingTitle">Contact me</h1>
 	<br>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" id="cForm" name="cForm" class="cForm">
           <div class="form-group">
             <label for="fullName">Full Name:</label>
@@ -30,7 +30,7 @@ include("validateForm.php");
           <input type="button" class="formButton" id="submitBtn" name="submitMe" value="SUBMIT">
         </form>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 text-center general-contact-info">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 text-center general-contact-info">
         <h3><strong>Phone</strong>: <br><a href="tel:(818)641-4054">(818) 641-4054</a></h3>
         <br>
         <h3><strong>Email</strong>: <br><a href="mailto:chrismomdjian@gmail.com">chrismomdjian@gmail.com</a></h3>
