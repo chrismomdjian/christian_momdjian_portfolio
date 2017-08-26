@@ -43,7 +43,7 @@
 				<p>I also enjoy skateboarding at local skate plazas in Los Angeles whenever I get some free time.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
       </div>
     </div>
 
@@ -66,7 +66,7 @@
 				<p>One day I would like to travel to Japan and South Korea equipped with a compact digital camera to take some cool street photos!</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
       </div>
     </div>
 

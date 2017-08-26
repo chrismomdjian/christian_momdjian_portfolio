@@ -5,6 +5,8 @@
 body {
 	line-height: 1.8;
 	font-family: 'Libre Franklin', sans-serif;
+	-webkit-font-family: 'Libre Franklin', sans-serif;
+	-moz-font-family: 'Libre Franklin', sans-serif;
 }
 
 a {
@@ -18,6 +20,13 @@ a:hover {
 
 a:focus {
 	outline: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #006400;
+  background-color: inherit;
 }
 
 img {
