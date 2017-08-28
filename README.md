@@ -2,7 +2,6 @@
 Link to live example:
 http://chrismomdjian.com
 
-#
 
 <h2>About this project</h2>
 This project is my personal web portfolio. It showcases my most recent projects on the home
