@@ -22,6 +22,20 @@ a:focus {
 	outline: 0;
 }
 
+/* on work.php page */
+.list-group-item {
+	background-color: inherit;
+}
+
+.list-group-item a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.list-group-item a:hover {
+	color: lightgrey;
+}
+
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {

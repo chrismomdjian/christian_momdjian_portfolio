@@ -9,6 +9,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
 		    <li class="<?php if($_SERVER["PHP_SELF"] == "/index.php"){ echo 'active';} ?>"><a href="index.php?title=home">HOME</a></li>
+        <li class="<?php if($_SERVER["PHP_SELF"] == "/work.php"){ echo 'active';} ?>"><a href="work.php?title=work">WORK</a></li>
         <li class="<?php if($_SERVER["PHP_SELF"] == "/about.php"){ echo 'active';} ?>"><a href="about.php?title=about">ABOUT</a></li>
         <li class="<?php if($_SERVER["PHP_SELF"] == "/contact.php"){ echo 'active';} ?>"><a href="contact.php?title=contact">CONTACT</a></li>
       </ul>
