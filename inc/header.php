@@ -5,7 +5,9 @@ if ($_GET["title"] == "home") {
   $headTitle = "| About";
 } else if ($_GET["title"] == "contact") {
   $headTitle = "| Contact";
-} else {
+} elseif ($_GET["title"] == "work") {
+  $headTitle = "| Work";
+}else {
   $headTitle = "";
 }
 ?>
