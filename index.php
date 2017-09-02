@@ -11,6 +11,25 @@
   </a>
 </div>
 
+<div class="container-fluid text-center" style="padding: 10%;">
+	<div class="row pitch">
+		<div class="col-xs-12 col-md-6 text-center">
+			<div class="pitch-column">
+				<h2>Header</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-6 text-center">
+			<div class="pitch-column">
+				<img src="images/viewports_detailed.png" class="img-responsive center-block" alt="viewports" title="Viewports">
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container-fluid row-2 text-center">
 	<h1 class="headingTitle">Recent work</h1>
   <div class="row"> <!-- beginning of first row -->

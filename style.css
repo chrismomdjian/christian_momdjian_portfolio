@@ -111,6 +111,16 @@ img {
 	border: solid #333 5px;
 }
 
+.pitch {
+	font-weight: bold;
+	color: #7f8c8d;
+}
+
+.pitch-column {
+	padding: 10px;
+	text-align: justify;
+}
+
 /* Modal */
 .modal-dialog .modal-content .modal-header {
 	padding: 15px;
