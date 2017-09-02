@@ -15,9 +15,12 @@
 	<div class="row pitch">
 		<div class="col-xs-12 col-md-6 text-center">
 			<div class="pitch-column">
-				<h2>Header</h2>
+				<h2>Applications and Websites for All Viewports</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					I always try to keep up with new techniques and technologies in the
+					development world and utilize those tools to make my projects work on
+					different viewports and devices. Honing my skills in this area is
+					something I work on quite often.
 				</p>
 			</div>
 		</div>
