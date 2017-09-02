@@ -121,6 +121,13 @@ img {
 	text-align: justify;
 }
 
+.btn-success {
+  color: #fff;
+  background-color: #407a52;
+	border: none;
+	border-radius: 2px;
+}
+
 /* Modal */
 .modal-dialog .modal-content .modal-header {
 	padding: 15px;
@@ -430,6 +437,12 @@ MEDIA QUERIES
 
 	.formButton {
 		margin-bottom: 10%;
+	}
+
+	.btn-success {
+	  width: 100%;
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 
 	figcaption {

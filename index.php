@@ -15,13 +15,17 @@
 	<div class="row pitch">
 		<div class="col-xs-12 col-md-6 text-center">
 			<div class="pitch-column">
-				<h2>Applications and Websites for All Viewports</h2>
+				<h1>A Passionate Dev.</h1>
 				<p>
-					I always try to keep up with new techniques and technologies in the
-					development world and utilize those tools to make my projects work on
-					different viewports and devices. Honing my skills in this area is
-					something I work on quite often.
+					I'm always learning new techniques and technologies in the industry
+					while always revisiting the basics of development in order to hone
+					my skills as often as possible. My skills include HTML5, CSS3, JavaScript,
+					jQuery, PHP and MySQL, Python and developing small apps and websites for
+					businesses and individuals.
 				</p>
+				<a href="https://github.com/chrismomdjian" target="_blank">
+					<div class="btn btn-success btn-lg">View My GitHub</div>
+				</a>
 			</div>
 		</div>
 
