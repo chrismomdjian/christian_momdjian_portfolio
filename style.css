@@ -113,7 +113,7 @@ img {
 
 .pitch {
 	font-weight: bold;
-	color: #7f8c8d;
+	color: #34495e;
 }
 
 .pitch-column {
@@ -422,6 +422,14 @@ MEDIA QUERIES
 */
 
 @media only screen and (max-width: 480px){
+
+	body {
+		line-height: 1.4;
+	}
+
+	.pitch-title {
+		font-size: 1.5em;
+	}
 
 	.navbar-brand {
 		letter-spacing: 0;

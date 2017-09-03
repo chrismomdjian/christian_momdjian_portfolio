@@ -15,7 +15,7 @@
 	<div class="row pitch">
 		<div class="col-xs-12 col-md-6 text-center">
 			<div class="pitch-column">
-				<h1>A Passionate Dev.</h1>
+				<h1 class="pitch-title">A Passionate Dev.</h1>
 				<p>
 					I'm always learning new techniques and technologies in the industry
 					while always revisiting the basics of development in order to hone
@@ -213,26 +213,23 @@
 </div>
 
 <!-- Slider -->
-<div class="container-fluid row-1 text-center">
-	<div class="row text-center">
+<div class="container-fluid text-center">
+	<div class="row text-center interests" style="color: #34495e">
 		<h1 class="headingTitle">Interests</h1>
 		<div class="col-xs-12 col-md-4">
 			<a href="#" data-toggle="modal" data-target="#modal-1">
-				<img src="images/gameboy.png" alt="Flat UI Design Gameboy" class="icons img-responsive center-block img-circle">
+				<img src="images/gameboy_icon.png" alt="Flat UI Design Gameboy" class="icons img-responsive center-block img-circle">
 			</a>
-			<h2>Nintendo Nerd</h2>
 		</div>
 		<div class="col-xs-12 col-md-4">
 			<a href="#" data-toggle="modal" data-target="#modal-2">
-				<img src="images/skateboard.png" alt="Flat UI Design Skateboard" class="icons img-responsive center-block img-circle">
+				<img src="images/skateboard_icon.png" alt="Flat UI Design Skateboard" class="icons img-responsive center-block img-circle">
 			</a>
-			<h2>Skateboarder</h2>
 		</div>
 		<div class="col-xs-12 col-md-4">
 			<a href="#" data-toggle="modal" data-target="#modal-3">
-				<img src="images/camera.png" alt="Flat UI Design Camera" class="icons img-responsive center-block img-circle">
+				<img src="images/camera_icon.png" alt="Flat UI Design Camera" class="icons img-responsive center-block img-circle">
 			</a>
-			<h2>Photographer</h2>
 		</div>
 
 	</div>
