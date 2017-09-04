@@ -13,7 +13,14 @@
 
 <div class="container-fluid text-center" style="padding: 10%;">
 	<div class="row pitch">
-		<div class="col-xs-12 col-md-6 text-center">
+
+		<div class="col-xs-12 col-md-6 col-md-push-6 text-center">
+			<div class="pitch-column">
+				<img src="images/viewports_detailed.png" class="img-responsive center-block" alt="viewports" title="Viewports">
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-6 col-md-pull-6 text-center">
 			<div class="pitch-column">
 				<h1 class="pitch-title">A Passionate Dev.</h1>
 				<p>
@@ -29,11 +36,7 @@
 			</div>
 		</div>
 
-		<div class="col-xs-12 col-md-6 text-center">
-			<div class="pitch-column">
-				<img src="images/viewports_detailed.png" class="img-responsive center-block" alt="viewports" title="Viewports">
-			</div>
-		</div>
+
 	</div>
 </div>
 

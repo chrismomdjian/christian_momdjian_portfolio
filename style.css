@@ -51,12 +51,15 @@ img {
 .icons {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	transition-duration: .4s;
 	width: 200px;
 	height: 200px;
 }
 
 .icons:hover {
-	border: solid #333 2px;
+	transition-duration: .4s;
+	width: 250px;
+	height: 250px;
 }
 
 .container-fluid {
