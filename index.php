@@ -215,7 +215,7 @@
 	</div> <!-- end of third row -->
 </div>
 
-<!-- Slider -->
+<!-- Interests -->
 <div class="container-fluid text-center">
 	<div class="row text-center interests" style="color: #34495e">
 		<h1 class="headingTitle">Interests</h1>

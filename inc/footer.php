@@ -13,10 +13,10 @@
 		</div>
 	</div>
 	<br>
-  <ul id="footerNav">
-    <li><a href="index.php">Home</a></li>
-    <li><a href="about.php">About</a></li>
-    <li><a href="contact.php">Contact</a></li>
+	<ul class="footerNav">
+    <li><a href="https://www.instagram.com/christianmomdjian/" target="_blank"><img src="images/instagram.png" class="social-media"></a></li>
+    <li><a href="https://github.com/chrismomdjian" target="_blank"><img src="images/github.png" class="social-media"></a></li>
+    <li><a href="mailto:chrismomdjian@gmail.com"><img src="images/gmail.png" class="social-media"></a></li>
   </ul>
 	<br>
 	<p>Christian Momdjian &nbsp;<a href="http://chrismomdjian.com"><span id="currentDate"></span> chrismomdjian.com.  </a></p>

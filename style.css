@@ -51,15 +51,12 @@ img {
 .icons {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	transition-duration: .4s;
 	width: 200px;
 	height: 200px;
 }
 
 .icons:hover {
-	transition-duration: .4s;
-	width: 250px;
-	height: 250px;
+	opacity: .80;
 }
 
 .container-fluid {
@@ -297,11 +294,7 @@ figcaption {
 }
 
 #resume:hover {
-	background-color: inherit;
-	border: solid #16a085 2px;
-	color: #16a085;
-	font-weight: bold;
-	transition-duration: 0.5s;
+	opacity: .80;
 }
 
 .project_info {
@@ -409,15 +402,24 @@ FOOTER ITEMS
 	padding: 3%;
 }
 
-#footerNav {
+.footerNav {
 	display: inline-block;
 	padding: 20px;
 	list-style-type: none;
 }
 
-#footerNav li {
+.footerNav li {
 	float: left;
 	padding: 15px;
+}
+
+.social-media {
+	width: 50px;
+	height: 50px;
+}
+
+.social-media:hover {
+	opacity: .80;
 }
 
 /*
@@ -431,7 +433,7 @@ MEDIA QUERIES
 	}
 
 	.pitch-title {
-		font-size: 1.5em;
+		font-size: 1.7em;
 	}
 
 	.navbar-brand {
