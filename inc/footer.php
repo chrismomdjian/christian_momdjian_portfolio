@@ -19,5 +19,5 @@
     <li><a href="mailto:chrismomdjian@gmail.com"><img src="images/gmail.png" class="social-media"></a></li>
   </ul>
 	<br>
-	<p>Christian Momdjian &nbsp;<a href="http://chrismomdjian.com"><span id="currentDate"></span> chrismomdjian.com.  </a></p>
+	<p><a href="http://chrismomdjian.com"><span id="currentDate"></span> chrismomdjian.com.  </a></p>
 </footer>

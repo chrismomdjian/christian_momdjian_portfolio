@@ -216,7 +216,7 @@
 </div>
 
 <!-- Interests -->
-<div class="container-fluid text-center">
+<!-- <div class="container-fluid text-center">
 	<div class="row text-center interests" style="color: #34495e">
 		<h1 class="headingTitle">Interests</h1>
 		<div class="col-xs-12 col-md-4">
@@ -236,7 +236,7 @@
 		</div>
 
 	</div>
-</div>
+</div>-->
 
 <?php include "inc/modals.php"; ?>
 
@@ -244,29 +244,23 @@
 <div class="container-fluid row-3 text-center">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <a href="contact.php">
-        <div class="content-box">
-          <h2 class="headingTitle">My Goal</h2>
-          <hr>
-          <p>I plan on creating quality work and becoming a great asset to my
-            future employer as a developer. I always try my best to be the person
-            that my higher-ups can trust with getting the job done!
-          </p>
-        </div>
-      </a>
+      <div class="text-box">
+				<h2 class="headingTitle">My Goals</h2>
+				<p>I plan on creating quality work and becoming a great asset to my
+					future employer as a developer. I always try my best to be the person
+					that my higher-ups can trust with getting the job done!
+				</p>
+			</div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <a href="about.php">
-        <div class="content-box">
-          <h2 class="headingTitle">My Skills</h2>
-          <hr>
-          <p>
-            My skills include: <br>
-            <span id="skills">HTML5, CSS3, JavaScript, jQuery, Bootstrap, JSON,
-            PHP & MySQL, Python 3+, Django, Git/GitHub, and much more!</span>
-          </p>
-        </div>
-      </a>
+      <div class="text-box">
+				<h2 class="headingTitle">My Skills</h2>
+				<p>
+					My skills include: <br>
+					<span id="skills">HTML5, CSS3, JavaScript, jQuery, Bootstrap, JSON,
+					PHP & MySQL, Python 3+, Django, Git/GitHub, and much more!</span>
+				</p>
+			</div>
     </div>
   </div>
 </div>

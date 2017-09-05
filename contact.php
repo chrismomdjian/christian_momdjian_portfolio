@@ -6,38 +6,40 @@ include("validateForm.php");
 
 <?php include("inc/navbar.php"); ?>
 
-<div class="container-fluid row-4">
-	<h1 style="font-size: 3em;" class="headingTitle">Contact me</h1>
-	<br>
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4">
-        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" id="cForm" name="cForm" class="cForm">
-          <div class="form-group">
-            <label for="fullName">Full Name:</label>
-            <input type="text" class="form-control input-lg" id="fullName" name="fullName">
-            <div id="name_error"></div>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control input-lg" id="email" name="email">
-            <div id="email_error"></div>
-          </div>
-          <div class="textarea">
-            <label for="comment">Comment:</label>
-              <textarea class="form-control input-lg" id="comment" name="comment"></textarea>
-              <div id="comment_error"></div>
-          </div><br>
-          <input type="button" class="formButton" id="submitBtn" name="submitMe" value="SUBMIT">
-        </form>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-8 text-center general-contact-info">
-        <h3><strong>Phone</strong>: <br><a href="tel:(818)641-4054">(818) 641-4054</a></h3>
-        <br>
-        <h3><strong>Email</strong>: <br><a href="mailto:chrismomdjian@gmail.com">chrismomdjian@gmail.com</a></h3>
-        <br>
-        <h3><strong>Github Repositories</strong>: <br><a href="http://www.github.com/chrismomdjian">github.com/chrismomdjian</a></h3>
-      </div>
-    </div>
+<div class="container-fluid row-1">
+	<div class="container">
+		<h1 style="font-size: 3em;" class="headingTitle">Contact me</h1>
+		<br>
+	    <div class="row">
+	      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4">
+	        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" id="cForm" name="cForm" class="cForm">
+	          <div class="form-group">
+	            <label for="fullName">Full Name:</label>
+	            <input type="text" class="form-control input-lg" id="fullName" name="fullName">
+	            <div id="name_error"></div>
+	          </div>
+	          <div class="form-group">
+	            <label for="email">Email:</label>
+	            <input type="email" class="form-control input-lg" id="email" name="email">
+	            <div id="email_error"></div>
+	          </div>
+	          <div class="textarea">
+	            <label for="comment">Comment:</label>
+	              <textarea class="form-control input-lg" id="comment" name="comment"></textarea>
+	              <div id="comment_error"></div>
+	          </div><br>
+	          <input type="button" class="formButton" id="submitBtn" name="submitMe" value="SUBMIT">
+	        </form>
+	      </div>
+	      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-8 text-center general-contact-info">
+	        <h3><strong>Phone</strong>: <br><a href="tel:(818)641-4054">(818) 641-4054</a></h3>
+	        <br>
+	        <h3><strong>Email</strong>: <br><a href="mailto:chrismomdjian@gmail.com">chrismomdjian@gmail.com</a></h3>
+	        <br>
+	        <h3><strong>Github Repositories</strong>: <br><a href="http://www.github.com/chrismomdjian">github.com/chrismomdjian</a></h3>
+	      </div>
+	    </div>
+	</div>
 </div>
 
 <?php include("inc/footer.php"); ?>
