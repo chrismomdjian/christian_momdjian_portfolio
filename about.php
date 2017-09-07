@@ -15,8 +15,7 @@
 		knew that programming would be my newfound passion.
   <br><br>
   <strong>I'm constantly learning.</strong> I'm always eager to learn new technologies and frameworks as I
-	progress in my programming career. My recent interests have been in developing for the web using Python 3
-	, Flask and SQL as well as Django. Retrieving, updating and formatting data to present to users in a sleek, and
+	progress in my programming career. My recent interests have been focusing on working with RESTful APIs and writing cleaner, more modular programs. Retrieving, updating and formatting data to present to users in a sleek, and
 	simple interface is something I always work on improving when writing code.
 	<br><br>
 	 I enjoy blending both back-end and front-end code together to form clean and cohesive projects and apps.
@@ -30,7 +29,8 @@
 	<hr>
 	<p>
   My skills include <strong>HTML5, CSS3, Javascript/jQuery, PHP &amp; SQL, Python 3+,
-  Nodejs, Wordpress, Bootstrap, Git/Github, Slack, Inkscape</strong>
+  Nodejs, Wordpress, Bootstrap, Git/Github, creating icons, Flat UI Graphics, and website mockups/
+	wireframes using Inkscape, Linux navigation and command utilities, Slack</strong>
   and much more!
   </p>
 	</div>
@@ -47,7 +47,7 @@
 			<a href="#" data-toggle="modal" data-target="#modal-1">
 				<img src="images/gameboy.png" alt="Flat UI Design Gameboy" class="icons img-responsive center-block img-circle">
 			</a>
-			<h2>Nintendo Nerd</h2>
+			<h2>8-bit Gamer</h2>
 		</div>
 		<div class="col-xs-12 col-md-4">
 			<a href="#" data-toggle="modal" data-target="#modal-2">
