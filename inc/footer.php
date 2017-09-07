@@ -14,9 +14,9 @@
 	</div>
 	<br>
 	<ul class="footerNav">
-    <li><a href="https://www.instagram.com/christianmomdjian/" target="_blank"><img src="images/instagram.png" class="social-media"></a></li>
-    <li><a href="https://github.com/chrismomdjian" target="_blank"><img src="images/github.png" class="social-media"></a></li>
-    <li><a href="mailto:chrismomdjian@gmail.com"><img src="images/gmail.png" class="social-media"></a></li>
+    <li><a href="https://www.instagram.com/christianmomdjian/" target="_blank"><img src="images/instagram.png" class="social-media" title="instagram"></a></li>
+    <li><a href="https://github.com/chrismomdjian" target="_blank"><img src="images/github.png" class="social-media" title="github"></a></li>
+    <li><a href="mailto:chrismomdjian@gmail.com"><img src="images/gmail.png" class="social-media" title="gmail"></a></li>
   </ul>
 	<br>
 	<p><a href="http://chrismomdjian.com"><span id="currentDate"></span> chrismomdjian.com.  </a></p>
