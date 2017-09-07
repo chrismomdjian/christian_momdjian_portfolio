@@ -4,7 +4,7 @@
 
 <div class="container-fluid row-1 text-center" style="padding: 10%;">
 	<h1 class="titleFade nameHeading" style="font-size: 4em;">Christian Momdjian</h1>
-	<h2 class="titleFade">Web Developer</h2>
+	<h2 class="titleFade">Software Developer</h2>
 	<br>
   <a href="http://chrismomdjian.com">
 	<img src="images/chris.jpg" id="me" width="200" height="300" class="img-responsive center-block img-circle titleFade" alt="Christian Momdjian" title="Christian Momdjian">
