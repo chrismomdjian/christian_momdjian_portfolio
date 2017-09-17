@@ -39,6 +39,12 @@ $execute = $handler->query($query);
   var dateCopyright = document.getElementById("currentDate");
   var date = new Date();
   dateCopyright.innerHTML = "&copy;" + date.getFullYear();
+
+	//work-list tile colors
+	var listItems = document.querySelectorAll(".list-group-item:nth-child(odd)");
+	for(var i = 0; i < listItems.length; i++) {
+		listItems[i].style.backgroundColor = "#008888"; // light-torquoise
+	}
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
