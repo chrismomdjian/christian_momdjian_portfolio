@@ -167,8 +167,8 @@
 			<button class="project_info" data-toggle="collapse" data-target="#sixth">About this project</button>
       <br><br>
       <div class="collapse" id="sixth">
-				<p>A simple sales-tax and total calculator written in JavaScript. I enjoy creating one-page
-          apps and this was a good little project to practice my JS skills without using any jQuery.
+				<p>A PHP-powered web application I created to keep track of the classes I have to take
+				to earn my Associates degree at Glendale Community College.
         </p>
 			</div>
 		</div>
