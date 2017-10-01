@@ -36,7 +36,29 @@
 			</div>
 		</div>
 
+	</div>
 
+</div>
+
+<div class="container-fluid text-center" style="padding: 10%; background-color: lightgrey;">
+	<div class="row pitch">
+		<div class="col-xs-12 col-md-6">
+			<div class="pitch-column">
+				<img src="images/wagerange.png" class="img-responsive center-block" alt="WageRange app" title="WageRange">
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-6 text-center">
+			<div class="pitch-column">
+				<h1 class="pitch-title">Mobile Development</h1>
+				<p>
+					I also have experience working with Android Studio and Java. WageRange is
+					an Android app which allows users to see employee wage ranges from hourly to yearly
+					based on the information they submit such as days worked, hours worked each day, etc.
+					The app is available on the Google Play Store for free.
+				</p>
+			</div>
+		</div>
 	</div>
 </div>
 
