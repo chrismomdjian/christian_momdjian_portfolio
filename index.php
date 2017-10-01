@@ -40,11 +40,11 @@
 
 </div>
 
-<div class="container-fluid text-center" style="padding: 10%; background-color: lightgrey;">
+<div class="container-fluid text-center" style="padding: 10%; background-color: lightgrey">
 	<div class="row pitch">
 		<div class="col-xs-12 col-md-6">
 			<div class="pitch-column">
-				<img src="images/wagerange.png" class="img-responsive center-block" alt="WageRange app" title="WageRange">
+				<img src="images/wagerangeheader.png" class="img-responsive center-block" alt="WageRange app" title="WageRange">
 			</div>
 		</div>
 
