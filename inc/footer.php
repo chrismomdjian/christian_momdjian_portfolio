@@ -15,7 +15,7 @@
 	<br>
 	<ul class="footerNav">
     <li><a href="https://www.instagram.com/christianmomdjian/" target="_blank"><img src="images/igicon.png" class="social-media" title="instagram"></a></li>
-    <li><a href="https://linkedin/in/chrismomdjian" target="_blank"><img src="images/linkedinicon.png" class="social-media" title="LinkedIn"></a></li>
+    <li><a href="https://linkedin/in/chrismomdjian-078380141" target="_blank"><img src="images/linkedinicon.png" class="social-media" title="LinkedIn"></a></li>
     <li><a href="mailto:chrismomdjian@gmail.com"><img src="images/mailtoicon.png" class="social-media" title="gmail"></a></li>
   </ul>
 	<br>

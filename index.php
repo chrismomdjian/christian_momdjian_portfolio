@@ -57,6 +57,9 @@
 					based on the information they submit such as days worked, hours worked each day, etc.
 					The app is available on the Google Play Store for free.
 				</p>
+				<a href="https://play.google.com/store/search?q=WageRange&hl=en" target="_blank">
+					<div class="btn btn-success btn-lg">View in Play Store</div>
+				</a>
 			</div>
 		</div>
 	</div>
