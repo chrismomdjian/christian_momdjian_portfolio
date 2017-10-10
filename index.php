@@ -136,14 +136,13 @@
 
   <div class="row"> <!-- beginning of second row -->
 		<div class="col-xs-12 col-md-4 linkbutton">
-			<h2>Clothing Brand Web Design</h2>
+			<h2>GCC Computer Club</h2>
       <figure>
-  			<a href="#" target="_blank">
-  			<img src="images/clothing-brand.png" class="img-responsive" alt="clothing brand web design">
+  			<a href="http://gcc-coding-team.herokuapp.com/" target="_blank">
+  			<img src="images/computer-club.jpg" class="img-responsive" alt="GCC Computer Club">
         <figcaption>
-          <h4 class="slidebox-title">Clothing Brand Landing Page Design</h4>
-          <p>A landing page I designed to look sleek and simple.</p>
-          <p>HTML5, CSS3, JavaScript, jQuery</p>
+          <h4 class="slidebox-title">Computer Club Website</h4>
+          <p>Website created for the Glendale Community College computer club.</p>
         </figcaption>
       </figure>
       <div class="preview_button">Click To Preview</div>
@@ -151,9 +150,7 @@
 			<button class="project_info" data-toggle="collapse" data-target="#fourth">About this project</button>
       <br><br>
 			<div class="collapse" id="fourth">
-				A landing page I designed to look sleek and simple. I used the Bootstrap framework to get off
-				to a quick start in terms of making the page responsive, and decided not to use Bootstraps
-				other features like the navbar in favor of making my own responsive navigation.
+				Website created for the Glendale Community College computer club.
 			</div>
 		</div>
 		<div class="col-xs-12 col-md-4 linkbutton">
@@ -216,25 +213,6 @@
       <br><br>
 			<div class="collapse" id="seventh">
 				PHP application that retrieves JSON data from TeamTreehouse API with profile data.
-			</div>
-		</div>
-
-		<div class="col-xs-12 col-md-4 linkbutton">
-			<h2>GCC Computer Club Website</h2>
-      <figure>
-  			<a href="http://gcc-coding-team.herokuapp.com/" target="_blank">
-  			<img src="images/computer-club.jpg" class="img-responsive" alt="GCC Computer Club">
-        <figcaption>
-          <h4 class="slidebox-title">Computer Club Website</h4>
-          <p>Website created for the Glendale Community College computer club.</p>
-        </figcaption>
-      </figure>
-      <div class="preview_button">Click To Preview</div>
-			</a><br>
-			<button class="project_info" data-toggle="collapse" data-target="#eighth">About this project</button>
-      <br><br>
-			<div class="collapse" id="eighth">
-				Website created for the Glendale Community College computer club.
 			</div>
 		</div>
 	</div> <!-- end of third row -->
