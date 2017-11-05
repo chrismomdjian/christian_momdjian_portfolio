@@ -110,25 +110,21 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-md-4 linkbutton">
-			<h2>Mobischeduler App Project</h2>
+			<h2>Profile Search Application</h2>
       <figure>
-  			<a href="http://higher.team/blog/2017/january/diving-into-real-life-project" target="_blank">
-  			<img src="images/mobischeduler.jpg" class="img-responsive" alt="Higher.team mobischeduler blog post">
+  			<a href="http://chrismomdjian.com/profile-search-application/home.php" target="_blank">
+  			<img src="images/profile-search-app.jpg" class="img-responsive" alt="Treehouse Search Application">
         <figcaption>
-          <h4 class="slidebox-title">Higher.team Scheduler App</h4>
-          <p>Simple scheduler app created for the code school Higher.team.</p>
-          <p>PHP5, MySQL and the HTML5 stack.</p>
+          <h4 class="slidebox-title">Profile Search Application</h4>
+          <p>PHP application that retrieves JSON data from TeamTreehouse API with profile data.</p>
         </figcaption>
       </figure>
-      <div class="preview_button">Click To View Article</div>
+      <div class="preview_button">Click To Preview</div>
 			</a><br>
 			<button class="project_info" data-toggle="collapse" data-target="#third">About this project</button>
       <br><br>
 			<div class="collapse" id="third">
-				<p>This project was a special one for me. I am currently interning for a school called
-				Higher.team, and my instructor gave me the opportunity to create a scheduling app for the students
-				to set up a time and date to meet with their instructor. The app was made with languages such as PHP
-				and the HTML5 stack. Andrew wrote a blog post about this project and it helped me grow as a developer.</p>
+				PHP application that retrieves JSON data from TeamTreehouse API with profile data.
 			</div>
 		</div>
   </div> <!-- end of first row -->
@@ -136,13 +132,14 @@
 
   <div class="row"> <!-- beginning of second row -->
 		<div class="col-xs-12 col-md-4 linkbutton">
-			<h2>GCC Computer Club</h2>
+			<h2>dtlawebsiteandseo.com</h2>
       <figure>
-  			<a href="http://gcc-coding-team.herokuapp.com/" target="_blank">
-  			<img src="images/computer-club.jpg" class="img-responsive" alt="GCC Computer Club">
+  			<a href="http://dtlawebsiteandseo.com/" target="_blank">
+  			<img src="images/dtlawebsiteandseo.png" class="img-responsive" alt="DTLA Website and SEO">
         <figcaption>
-          <h4 class="slidebox-title">Computer Club Website</h4>
-          <p>Website created for the Glendale Community College computer club.</p>
+          <h4 class="slidebox-title">dtlawebsiteandseo.com</h4>
+          <p>Website created for the company EZ Marketing Concepts&copy; which displays their SEO and Marketing skills
+						to potential clients.</p>
         </figcaption>
       </figure>
       <div class="preview_button">Click To Preview</div>
@@ -150,7 +147,8 @@
 			<button class="project_info" data-toggle="collapse" data-target="#fourth">About this project</button>
       <br><br>
 			<div class="collapse" id="fourth">
-				Website created for the Glendale Community College computer club.
+				Website created for the company EZ Marketing Concepts&copy; which displays their SEO and marketing skills
+					to potential clients. I built the site using a Wordpress theme and customizing the stylesheet to look unique.
 			</div>
 		</div>
 		<div class="col-xs-12 col-md-4 linkbutton">
@@ -195,27 +193,6 @@
 			</div>
 		</div>
 	</div> <!-- end of second row -->
-
-	<div class="row"> <!-- beginning of third row -->
-		<div class="col-xs-12 col-md-4 linkbutton">
-			<h2>Treehouse Profile Application</h2>
-      <figure>
-  			<a href="http://chrismomdjian.com/profile-search-application/home.php" target="_blank">
-  			<img src="images/profile-search-app.jpg" class="img-responsive" alt="Treehouse Search Application">
-        <figcaption>
-          <h4 class="slidebox-title">Profile Search App</h4>
-          <p>PHP application that retrieves JSON data from TeamTreehouse API with profile data.</p>
-        </figcaption>
-      </figure>
-      <div class="preview_button">Click To Preview</div>
-			</a><br>
-			<button class="project_info" data-toggle="collapse" data-target="#seventh">About this project</button>
-      <br><br>
-			<div class="collapse" id="seventh">
-				PHP application that retrieves JSON data from TeamTreehouse API with profile data.
-			</div>
-		</div>
-	</div> <!-- end of third row -->
 </div>
 
 <!-- Interests -->
